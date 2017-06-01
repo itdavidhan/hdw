@@ -1,0 +1,30 @@
+{
+  "name": "hdw",
+  "version": "1.0.0",
+  "description": "davidhan's blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itdavidhan/hdw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itdavidhan/hdw/issues"
+  },
+  "homepage": "https://github.com/itdavidhan/hdw#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "codemirror": "^5.26.0",
+    "d3": "^3.5.5",
+    "ejs": "^2.5.6",
+    "gridstack": "^0.3.0",
+    "jquery": "^1.12.4",
+    "jquery-ui": "^1.12.1",
+    "require-css": "^0.1.10",
+    "requirejs": "^2.3.3"
+  }
+}
