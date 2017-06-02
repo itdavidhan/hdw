@@ -6,7 +6,7 @@ requirejs.config({
 		codemirror: './codemirror',
 		gridstack: './gridstack', 
 		ejs: './ejs',
-		d3: './d3'
+		d3: './d3' 
 	},
 	map: {
 		'*': {
@@ -15,11 +15,11 @@ requirejs.config({
 	},
 	shim: {   
 		bootstrap: {
-			deps: ['jquery', 'css!../../css/bootstrap.css']
+			deps: ['jquery', 'css!../../css/libs/bootstrap.css']
 		}
 	}	  
 });
 
-define(['jquery', 'bootstrap'], function() {
+define(['jquery', 'bootstrap', 'css!../../css/blog.css'], function() {
 	console.log('blog');
 });

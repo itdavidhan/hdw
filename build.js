@@ -11,7 +11,7 @@
 
 	// exclude: ['./node_modules/*'],
 
-	fileExclusionRegExp: /^(r|build)\.js|node_modules|.*\.scss$/,	//过滤，匹配到的文件将不会被输出到输出目录去
+	fileExclusionRegExp: /^(r|build)\.js|node_modules|pug|.*\.scss$/,	//过滤，匹配到的文件将不会被输出到输出目录去
 
 	optimizeCss: 'standard', 
 

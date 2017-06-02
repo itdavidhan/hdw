@@ -15,7 +15,7 @@ requirejs.config({
 	},
 	shim: {   
 		bootstrap: {
-			deps: ['jquery', 'css!../../css/bootstrap.css']
+			deps: ['jquery', 'css!../../css/libs/bootstrap.css']
 		}
 	}	  
 });

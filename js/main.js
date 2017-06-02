@@ -6,7 +6,9 @@ requirejs.config({
 		codemirror: '../libs/codemirror',
 		gridstack: '../libs/gridstack', 
 		ejs: '../libs/ejs',
-		d3: '../libs/d3'
+		d3: '../libs/d3' 
+
+
 	},
 	map: {
 		'*': {
@@ -15,7 +17,7 @@ requirejs.config({
 	},
 	shim: {   
 		bootstrap: {
-			deps: ['jquery', 'css!../../css/bootstrap.css']
+			deps: ['jquery', 'css!../../css/libs/bootstrap.css']
 		}
 	}	  
 });
