@@ -1,4 +1,3 @@
-
 nav.navbar.navbar-default
   div.container-fluid
     div.navbar-header
@@ -10,19 +9,20 @@ nav.navbar.navbar-default
       a.navbar-brand(href="javascript:;") David.Han
     div.collapse.navbar-collapse#bs-example-navbar-collapse-1
       ul.nav.navbar-nav
-        li.active
-          a(href="javascript:;") 
+        li._index
+          a(href="./index.html")
             | 首页
             span.sr-only (current) 
-        li
-          a(href="./html/blog.html") 博客 
+        li._blog
+          a(href="./blog.html") 博客 
         li.dropdown
           a(href="javascript:;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false").dropdown-toggle Dropdown 
+            span.caret
           ul.dropdown-menu
             li
-              a(href="./html/news.html") Action 
+              a(href="./news.html") Action 
             li
-              a(href="./html/news.html") Action 22
+              a(href="./news.html") Action 22
       form.navbar-form.navbar-left
         div.form-group
           input(type="text" placeholder="Search").form-control 
@@ -35,7 +35,7 @@ nav.navbar.navbar-default
             span.caret
           ul.dropdown-menu
             li
-              a(href="./html/news.html") Action 
+              a(href="./news.html") Action 
             li
-              a(href="./html/news.html") Action 22
+              a(href="./news.html") Action 22
             

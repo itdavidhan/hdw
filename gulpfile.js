@@ -10,6 +10,8 @@ gulp.task('testPug', function buildHTML() {
   }))
   .pipe(gulp.dest('./html')); 
 });
+
+gulp.watch('./pug/*.pug', ['testPug']);
  
 gulp.task('default', ['testPug']); 
  

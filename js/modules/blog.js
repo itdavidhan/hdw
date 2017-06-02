@@ -1,25 +1,26 @@
 requirejs.config({
-	baseUrl: '../js/libs',
+	baseUrl: '../js',
 	paths: {	//相对baseUrl的路径
-		jquery: './jquery.min',
-		bootstrap: './bootstrap',
-		codemirror: './codemirror',
-		gridstack: './gridstack', 
-		ejs: './ejs',
-		d3: './d3' 
+		jquery: './libs/jquery.min',
+		bootstrap: './libs/bootstrap',
+		codemirror: './libs/codemirror',
+		gridstack: './libs/gridstack', 
+		ejs: './libs/ejs',
+		d3: './libs/d3',
+		navActive: './common/navActive'
 	},
 	map: {
 		'*': {
-            'css': '../libs/css'
+            'css': './libs/css'
         }
 	},
 	shim: {   
 		bootstrap: {
-			deps: ['jquery', 'css!../../css/libs/bootstrap.css']
+			deps: ['jquery', 'css!../css/libs/bootstrap.css']
 		}
 	}	  
 });
 
-define(['jquery', 'bootstrap', 'css!../../css/blog.css'], function() {
-	console.log('blog');
+require(['jquery', 'navActive', 'bootstrap', 'css!../css/blog.css'], function($, navActive) {
+	navActive.init();
 });

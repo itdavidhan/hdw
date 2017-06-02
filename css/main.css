@@ -1,0 +1,39 @@
+html, body, .hdw {
+    width: 100%;
+    height: 100%;
+    background-color: #1F698E;
+}
+
+.hdw .navbar-default {
+    background-color: #C12127;
+    border-color: #1F698E;
+    border-radius: 0;
+    margin-bottom: 2px;
+} 
+.hdw .navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 0.8);
+}
+.hdw .navbar-default .navbar-brand:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.hdw .navbar-default .navbar-nav .active a {
+    background-color: #1F698E;
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.8s;
+}
+.hdw .navbar-default .navbar-nav .open a:focus {
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 1);
+}
+.hdw .navbar-default .navbar-nav .active a:hover {
+    /*background-color: #245978; */
+    background-color: #1F698E; 
+    /*color: rgba(255, 255, 255, 1); */
+    text-shadow: 0 0 8px #FFF;
+}
+.hdw .navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 0.8);
+}
+.hdw .navbar-default .navbar-nav>li>a:hover {
+    color: rgba(255, 255, 255, 1);
+}
