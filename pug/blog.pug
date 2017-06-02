@@ -9,5 +9,7 @@ html
     body 
         div.hdw
             include nav.pug 
-            div.aaa blllloogg
+            div.main-container.container-fluid
+                div.row 
+                    include blogList.pug 
         script(data-main="../js/modules/blog.js" src="../js/libs/require.js")

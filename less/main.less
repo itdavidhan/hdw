@@ -1,0 +1,49 @@
+html, body, .hdw {
+    width: 100%;
+    height: 100%;
+    background-color: #1F698E;
+}
+
+.hdw {
+    .navbar-default {
+        background-color: #C12127;
+        border-color: #1F698E;
+        border-radius: 0;
+        margin-bottom: 10px;
+        .navbar-brand {
+            color: rgba(255, 255, 255, 0.8);
+            &:hover {
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+        .navbar-nav {
+            .active {
+                a {
+                    background-color: #1F698E;
+                    color: rgba(255, 255, 255, 1);
+                    transition: all 0.8s;
+                    &:hover {
+                        background-color: #1F698E; 
+                        text-shadow: 0 0 8px #FFF;
+                    }
+                }
+            }
+            .open {
+                a {
+                    &:focus {
+                        background-color: #C12127;
+                        color: rgba(255, 255, 255, 1);
+                    }
+                }
+            }
+            >li {
+                >a {
+                    color: rgba(255, 255, 255, 0.8);
+                    &:hover {
+                        color: rgba(255, 255, 255, 1);
+                    }
+                }
+            }
+        }
+    }
+}
